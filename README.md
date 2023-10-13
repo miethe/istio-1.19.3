@@ -4,9 +4,11 @@ Helm charts for deploying Istio into OpenShift.
 
 ## Installation Methods
 
-The easiest way to deploy Istio on OpenShift is using the Red Hat OpenShift Service Mesh Operator. However, until Service Mesh v3, coming in Q1 '24, it isn't entirely the same as upstream Istio.
+The easiest way to deploy Istio on OpenShift is using the Red Hat OpenShift Service Mesh (OSSM) Operator. However, until Service Mesh v3, coming in Q1 '24, it isn't entirely the same* as upstream Istio.
 
 The next best alternative is using Istioctl with the `--set profile=openshift`. However, this method doesn't "mesh" (I'm sorry) well with clusters managed by GitOps and ACM. Hence the development of these Helm charts!
+
+*Note: technically you can utilize the **Sail Operator** from Red Hat to test OSSM v3 in Dev Preview.
 
 ## Helm Chart Development
 
