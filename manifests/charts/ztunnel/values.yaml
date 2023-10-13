@@ -1,5 +1,5 @@
 # Hub to pull from. Image will be `Hub/Image:Tag-Variant`
-hub: docker-virtual.oneartifactoryci.verizon.com/istio
+hub: docker.io/istio
 # Tag to pull from. Image will be `Hub/Image:Tag-Variant`
 tag: 1.19.3
 # Variant to pull. Options are "debug" or "distroless". Unset will use the default for the given version.

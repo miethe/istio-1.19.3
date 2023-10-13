@@ -1,4 +1,4 @@
-hub: docker-virtual.oneartifactoryci.verizon.com/istio
+hub: docker.io/istio
 tag: 1.19.3
 
 # ImagePullSecrets for operator ServiceAccount, list of secrets in the same namespace
